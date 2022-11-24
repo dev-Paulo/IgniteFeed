@@ -1,6 +1,6 @@
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
-import { useState } from 'react';
+import { useState, ChangeEvent, FormEvent, InvalidEvent } from 'react';
 
 import styles from "./Post.module.css";
 
@@ -35,22 +35,20 @@ export function Post({author, publishedAt, content} : PostProps) {
     addSuffix: true
   })
 
-  function handleCreateNewComment() {
-    event.preventDefault()
-
-    const newCommentText = event.target.comment.value;
+  function handleCreateNewComment(event: FormEvent) {
+    event.preventDefault()   
 
     setComments([...comments, newCommentText])
 
     setNewCommentText('');
   }
 
-  function handleNewCommentChange() {
+  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity('');
     setNewCommentText(event.target.value)
   } 
 
-  function handleNewCommentInvalid() {
+  function handleNewCommentInvalid(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity("Esse campo é obrigatório!");
   }
 
