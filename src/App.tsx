@@ -16,8 +16,7 @@ function App() {
       },
       content: [
         {type: 'paragraph', content: 'Fala galeraa 👋'},
-        {type: 'paragraph', content:  'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Ignite, curso da Rocketseat. O nome do projeto é IgniteFeed 🚀'},
-        {type: 'link', content: "jane.design/doctorcare"},       
+        {type: 'paragraph', content:  'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Ignite, curso da Rocketseat. O nome do projeto é IgniteFeed 🚀'},              
       ],
       publishedAt: new Date('2022-11-20 20:00:00')
     },
@@ -30,8 +29,7 @@ function App() {
       },
       content: [
         {type: 'paragraph', content: 'E ai pessoal!'},
-        {type: 'paragraph', content:  'Concluí com sucesso meu curso Ignite da Rocketseat.'},
-        {type: 'link', content: "jane.design/doctorcare"},       
+        {type: 'paragraph', content:  'Concluí com sucesso meu curso Ignite da Rocketseat.'},             
       ],
       publishedAt: new Date('2022-11-11 20:00:00')
     },
