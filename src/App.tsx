@@ -16,7 +16,7 @@ function App() {
       },
       content: [
         {type: 'paragraph', content: 'Fala galeraa 👋'},
-        {type: 'paragraph', content:  'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
+        {type: 'paragraph', content:  'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Ignite, curso da Rocketseat. O nome do projeto é IgniteFeed 🚀'},
         {type: 'link', content: "jane.design/doctorcare"},       
       ],
       publishedAt: new Date('2022-11-20 20:00:00')
@@ -25,12 +25,12 @@ function App() {
       id: 2,
       author: {
         avatarUrl: "https://github.com/thsrossi.png",
-        name: "Matheus Rossi",
-        role: "Jogador de Sinuca "
+        name: "John Doe",
+        role: "Frontend Developer "
       },
       content: [
-        {type: 'paragraph', content: 'Fala galeraa 👋'},
-        {type: 'paragraph', content:  'Joguei uma sinuca hoje e fumei varios cigarros. Estou muito feliz'},
+        {type: 'paragraph', content: 'E ai pessoal!'},
+        {type: 'paragraph', content:  'Concluí com sucesso meu curso Ignite da Rocketseat.'},
         {type: 'link', content: "jane.design/doctorcare"},       
       ],
       publishedAt: new Date('2022-11-11 20:00:00')
